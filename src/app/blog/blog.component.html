@@ -1,0 +1,23 @@
+<h2>Latest Blog Posts</h2>
+
+<!-- These will be replaced dynamically, but you can add static content for now -->
+<div>
+  <h3>How I Built My First Website</h3>
+  <p>I started with zero coding experience. After learning HTML and CSS basics, I built a personal homepage. Here’s how I did it step-by-step.</p>
+  <small>Posted on: April 15, 2025</small>
+</div>
+
+<hr>
+
+<div>
+  <h3>From Career Confusion to Coding Passion</h3>
+  <p>I used to work in retail. After trying free coding tutorials and joining a bootcamp, I landed a junior dev job. You can too.</p>
+  <small>Posted on: April 10, 2025</small>
+</div>
+<h1>My Blog Posts</h1>
+
+<div *ngFor="let post of posts" class="post-card">
+  <h2>{{ post.title }}</h2>
+  <p>{{ post.content }}</p>
+  <small>{{ post.date }}</small>
+</div>
