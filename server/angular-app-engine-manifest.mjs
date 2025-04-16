@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://Bsmart-123.github.io/Devblog-angular',
+  basePath: 'https://Bsmart-123.github.io/Devblog-Angular',
   supportedLocales: {
   "en-US": ""
 },
